@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "assignment-3",
-    "slug": "assignment-one",
+    "slug": "rn-assignment3-11310750",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,7 +25,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "13f6fa69-62da-4fb6-8f4a-ef00adcb3fcf"
+        "projectId": "efb1534d-57ab-43e6-897d-a0f1c8ca2731"
       }
     },
     "owner": "oduro_ao"

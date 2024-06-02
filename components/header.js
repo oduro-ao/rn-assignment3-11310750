@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View, Image } from "react-native";
-import  me  from '../assets/person.png';
+import  user_icon  from '../assets/person.png';
 
 const Header = () => {
   
@@ -9,7 +9,7 @@ const Header = () => {
         <Text style={styles.hello_1}>Hello , Devs</Text>
         <Text style={styles.hello_2}>14 tasks today</Text>
       </View>
-      <Image  source={me}/>
+      <Image style={styles.user_icon} source={user_icon}/>
     </View>
   );
 };
@@ -19,6 +19,8 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'space-between',
     flexDirection: 'row',
+    paddingLeft: 24,
+    paddingRight: 24,
   },
   container_1: {
     width: 190,
@@ -32,6 +34,10 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: "500",
     width: 190,
+  },
+  user_icon: {
+    backgroundColor: 'white',
+    borderRadius: '50%',
   },
 });
 export default Header;

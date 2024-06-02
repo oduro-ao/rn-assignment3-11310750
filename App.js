@@ -1,18 +1,16 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  TextInput,
-  Button,
-  FlatList,
-  StatusBar,
-} from "react-native";
+import { StyleSheet, View } from "react-native";
 import Header from "./components/header";
+import Search from "./components/search";
+import Category from "./components/category";
+import Tasks from "./components/tasks";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Header />
+      <Search />
+      <Category />
+      <Tasks />
     </View>
   );
 }
@@ -21,10 +19,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#F7F0E8",
-    padding: 50,
-    paddingLeft: 24,
-    paddingRight: 24,
+    paddingTop: 52,
   },
-
-  
 });
