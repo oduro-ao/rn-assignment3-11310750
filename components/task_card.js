@@ -6,7 +6,7 @@ export default function task_card() {
     "Web Developement",
     "Push Ups",
     "Piano Lessons",
-    "Football",
+    "Football ",
   ];
   return (
     <ScrollView style={styles.main}>
