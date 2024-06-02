@@ -22,11 +22,7 @@ export default function card() {
       task_num: "12 Task",
       picture_dir: require('../assets/pic2.png'),
     },
-    {
-      topic: "Run",
-      task_num: "12 Task",
-      picture_dir: require('../assets/pic1.png'),
-    },
+    
   ];
 
   return (

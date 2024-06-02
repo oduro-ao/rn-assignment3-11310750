@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "assignment-3",
+    "name": "rn-assignment3-11310750",
     "slug": "rn-assignment3-11310750",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,7 +25,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "efb1534d-57ab-43e6-897d-a0f1c8ca2731"
+        "projectId": "3a9852a4-0f90-4e2f-b5e5-d0f2611f072b"
       }
     },
     "owner": "oduro_ao"

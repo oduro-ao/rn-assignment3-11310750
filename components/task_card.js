@@ -7,6 +7,16 @@ export default function task_card() {
     "Push Ups",
     "Piano Lessons",
     "Football ",
+    "Assignments", 
+    "Hackathon",
+    "debugging",
+    "tennis",
+    "Musical Rehearsals",
+    "UCL Finals",
+    "Basket Ball",
+    "Gaming",
+    "Gym",
+    "Driving Lessong",
   ];
   return (
     <ScrollView style={styles.main}>
